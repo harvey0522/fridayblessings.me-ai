@@ -8,11 +8,11 @@ import PlausibleProvider from 'next-plausible';
 
 const inter = Inter({ subsets: ['latin'] });
 
-let title = 'QrGPT - QR Code Generator';
-let description = 'Generate your AI QR Code in seconds';
-let url = 'https://www.qrgpt.io';
-let ogimage = 'https://www.qrgpt.io/og-image.png';
-let sitename = 'qrGPT.io';
+let title = 'Friday Blessings Image AI Generator';
+let description = 'Generate your AI Friday Blessings in seconds';
+let url = 'https://fridayblessings.me';
+let ogimage = '/ogimage.png';
+let sitename = 'fridayblessings.me';
 
 export const metadata: Metadata = {
   metadataBase: new URL(url),

@@ -113,13 +113,13 @@ const Body = ({
         if (!response.ok || response.status !== 200) {
           const text = await response.text();
           throw new Error(
-            `Failed to generate QR code: ${response.status}, ${text}`,
+            `Failed to generate image: ${response.status}, ${text}`,
           );
         }
 
         const data = await response.json();
 
-        va.track('Generated QR Code', {
+        va.track('Generated Friday Blessings Image', {
           prompt: values.prompt,
         });
 
@@ -142,7 +142,7 @@ const Body = ({
     <div className="flex justify-center items-center flex-col w-full lg:p-0 p-4 sm:mb-28 mb-0">
       <div className="max-w-6xl w-full grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12 mt-10">
         <div className="col-span-1">
-          <h1 className="text-3xl font-bold mb-10">Generate a QR Code</h1>
+          <h1 className="text-3xl font-bold mb-10">Generate a Friday Blessings Image</h1>
           <Form {...form}>
             <form onSubmit={form.handleSubmit(handleSubmit)}>
               <div className="flex flex-col gap-4">
@@ -156,7 +156,7 @@ const Body = ({
                         <Input placeholder="roomgpt.io" {...field} />
                       </FormControl>
                       <FormDescription>
-                        This is what your QR code will link to.
+                        This is what your iamge will link to.
                       </FormDescription>
                       <FormMessage />
                     </FormItem>
@@ -176,7 +176,7 @@ const Body = ({
                         />
                       </FormControl>
                       <FormDescription className="">
-                        This is what the image in your QR code will look like.
+                        This is what the image in your friday blessing will look like.
                       </FormDescription>
 
                       <FormMessage />
@@ -226,7 +226,7 @@ const Body = ({
           {submittedURL && (
             <>
               <h1 className="text-3xl font-bold sm:mb-5 mb-5 mt-5 sm:mt-0 sm:text-center text-left">
-                Your QR Code
+                Your Iamge 
               </h1>
               <div>
                 <div className="flex flex-col justify-center relative h-auto items-center">

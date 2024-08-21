@@ -26,9 +26,9 @@ export async function generateMetadata({
     return;
   }
 
-  const title = `QrGPT: ${data.prompt}`;
-  const description = `A QR code generated from qrGPT.io linking to: ${data.website_url}`;
-  const image = data.image || 'https://qrGPT.io/og-image.png';
+  const title = `FridayBlessings: ${data.prompt}`;
+  const description = `A Friday Blessing image  generated from fridayblessings.me linking to: ${data.website_url}`;
+  const image = data.image || '/og-image.png';
 
   return {
     title,
