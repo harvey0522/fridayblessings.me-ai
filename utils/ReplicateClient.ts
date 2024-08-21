@@ -18,7 +18,7 @@ export class ReplicateClient {
     request: QrCodeControlNetRequest,
   ): Promise<string> => {
     const output = (await this.replicate.run(
-      'zylim0702/qr_code_controlnet:628e604e13cf63d8ec58bd4d238474e8986b054bc5e1326e50995fdbc851c557',
+      "aleksa-codes/flux-ghibsky-illustration:a9f94946fa0377091ac0bcfe61b0d62ad9a85224e4b421b677d4747914b908c",
       {
         input: {
           url: request.url,
