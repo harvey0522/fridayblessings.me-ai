@@ -9,7 +9,6 @@ import { useEffect } from 'react';
 import Script from 'next/script';
 
 const inter = Inter({ subsets: ['latin'] });
-const GA_TRACKING_ID ='G-3RXVW86VCK'
 let title = 'Friday Blessings Image AI Generator';
 let description = 'Generate your AI Friday Blessings in seconds';
 let url = 'https://fridayblessings.me';
