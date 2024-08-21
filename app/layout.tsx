@@ -5,9 +5,11 @@ import { Inter } from 'next/font/google';
 import Footer from '@/components/Footer';
 import { Analytics } from '@vercel/analytics/react';
 import PlausibleProvider from 'next-plausible';
+import { useEffect } from 'react';
+import Script from 'next/script';
 
 const inter = Inter({ subsets: ['latin'] });
-
+const GA_TRACKING_ID ='G-3RXVW86VCK'
 let title = 'Friday Blessings Image AI Generator';
 let description = 'Generate your AI Friday Blessings in seconds';
 let url = 'https://fridayblessings.me';
@@ -43,18 +45,23 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+
   return (
     <html lang="en">
       <head>
-        <PlausibleProvider domain="qrgpt.io" />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-BPTJ1HNVFN"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-BPTJ1HNVFN');
-    </script>
+      <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=G-3RXVW86VCK}`}
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){window.dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-3RXVW86VCK');
+          `}
+        </Script>
+        <PlausibleProvider domain="fridayblessings.me" />
       </head>
       <body className={inter.className}>
         <Navbar />
@@ -64,4 +71,5 @@ export default function RootLayout({
       </body>
     </html>
   );
+
 }
