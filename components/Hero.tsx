@@ -22,7 +22,7 @@ export default function Hero() {
               href="/start"
               className="text-white bg-gray-800 hover:bg-gray-600 active:bg-gray-900 "
             >
-              Generate your Friday Blessing Image
+              Generate Friday Blessing Image
             </NavLink>
             <NavLink
               target="_blank"
