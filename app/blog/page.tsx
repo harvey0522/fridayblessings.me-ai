@@ -14,13 +14,19 @@ export default function Blog() {
           <article className={styles.card}>
           <img src="/1.png" alt="Flux First Impressions" className={styles.blogImage} />
             <h2>Flux First Impressions</h2>
-            <p>Flux 是一个新的 AI 工具，旨在简化机器学习模型的部署和管理。</p>
+            <p>Flux 1</p>
             <Link href="/blog/1">Read more</Link>
           </article>
           <article className={styles.card}>
           <img src="/2.png" alt="Flux First Impressions" className={styles.blogImage} />
             <h2>Flux First Impressions2</h2>
-            <p>Flux 是一个新的 AI 工具，旨在简化机器学习模型的部署和管理。</p>
+            <p>Flux 2</p>
+            <Link href="/blog/2">Read more</Link>
+          </article>
+          <article className={styles.card}>
+          <img src="/3.png" alt="Flux First Impressions" className={styles.blogImage} />
+            <h2>Flux First Impressions3</h2>
+            <p>Flux 3</p>
             <Link href="/blog/2">Read more</Link>
           </article>
         </div>
