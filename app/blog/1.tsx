@@ -28,7 +28,7 @@ export default function Blog() {
             <p>&quot;May your Friday sparkle with joy, laughter, and love. May your heart be light and your spirit be strong.&quot;</p>
           </blockquote>
           <blockquote>
-            <p>&quot;As you go through this Friday, may you find peace in knowing that you are exactly where you need to be. Trust in God's timing.&quot;</p>
+            <p>&quot;As you go through this Friday, may you find peace in knowing that you are exactly where you need to be. Trust in God&apos;s timing.&quot;</p>
           </blockquote>
           <blockquote>
             <p>&quot;May the Lord bless you with a Friday filled with favor, love, and happiness. Have a blessed day!&quot;</p>
