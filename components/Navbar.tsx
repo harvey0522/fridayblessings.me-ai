@@ -107,6 +107,14 @@ const Navbar = () => {
                   Generate Friday Blessings
                 </NavLink>
               </li>
+              <li>
+                <NavLink
+                  href="/blog"
+                  className="block font-medium text-sm text-white bg-gray-800 hover:bg-gray-600 active:bg-gray-900 md:inline"
+                >
+                  Blog
+                </NavLink>
+              </li>
             </ul>
           </div>
         </div>
