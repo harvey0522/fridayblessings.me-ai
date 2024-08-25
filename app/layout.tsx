@@ -8,8 +8,8 @@ import PlausibleProvider from 'next-plausible';
 import Script from 'next/script';
 
 const inter = Inter({ subsets: ['latin'] });
-let title = 'Friday Blessings AI Generator';
-let description = 'Generate your AI Friday Blessings in seconds';
+let title = 'Friday Blessings AI Image Generator And Blogs';
+let description = 'Generate your AI friday blessings in seconds';
 let url = 'https://fridayblessings.me';
 let ogimage = '/ogimage.png';
 let sitename = 'fridayblessings.me';
