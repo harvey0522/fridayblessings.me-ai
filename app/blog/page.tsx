@@ -15,7 +15,7 @@ export default function Blog() {
           <img src="/1.png" alt="Flux First Impressions" className={styles.blogImage} />
             <h2>Flux First Impressions</h2>
             <p>Flux 1</p>
-            <Link href="/blog/1">Read more</Link>
+            <Link href="/start/1">Read more</Link>
           </article>
           <article className={styles.card}>
           <img src="/2.png" alt="Flux First Impressions" className={styles.blogImage} />
