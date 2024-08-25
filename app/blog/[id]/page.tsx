@@ -4,10 +4,10 @@ export default function Blog() {
   return (
     <>
       <Head>
-        <title>Blog</title>
+        <title>Friday Blessings Blog</title>
       </Head>
       <main>
-        <h1>Blog</h1>
+        <h1>Friday Blessings Blog</h1>
         <p>welcome</p>
       </main>
     </>

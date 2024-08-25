@@ -61,13 +61,11 @@ export default function RootLayout({
         </Script>
         <PlausibleProvider domain="fridayblessings.me" />
       </head>
-      <body className={inter.className}>
+      <body style={{ backgroundColor: '#8655ad', minHeight: '100vh' }} className={inter.className}>
         
         <Navbar />
         <main>
-          <div style={{ backgroundColor: '#E6E6FA', minHeight: '100vh' }}>
             {children}
-          </div>
         </main>
         <Analytics />
         <Footer />
