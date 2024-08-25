@@ -1,9 +1,8 @@
 'use client';
-
 import Image from 'next/image';
 import NavLink from './NavLink';
 
-let heroImages = ['/1.png', '/6.png', '/3.png', '/4.png', '/5.png', '/2.png'];
+let heroImages = ['/1.png', '/2.png', '/3.png', '/4.png', '/5.png', '/6.png'];
 
 export default function Hero() {
   return (
@@ -27,6 +26,7 @@ export default function Hero() {
           </div>
           <div className="grid sm:grid-cols-3 grid-cols-2 gap-4 pt-10">
             {heroImages.map((image, idx) => (
+              <NavLink href={`/blog/${idx + 1}`} key={idx}>
               <Image
                 key={idx}
                 alt="image"
@@ -35,6 +35,7 @@ export default function Hero() {
                 height={500}
                 className="rounded-lg"
               />
+              </NavLink>
             ))}
           </div>
         </div>

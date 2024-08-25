@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
+import NavLink from './NavLink';
 import Image from 'next/image';
 import { usePathname, useSearchParams } from 'next/navigation';
 
@@ -92,27 +93,27 @@ const Navbar = () => {
               {navigation.map((item, idx) => {
                 return (
                   <li key={idx} className="duration-150 hover:text-gray-900">
-                    <Link href={item.path} className="block">
+                    <NavLink href={item.path} className="block">
                       {item.title}
-                    </Link>
+                    </NavLink>
                   </li>
                 );
               })}
               <li>
-                <Link
+                <NavLink
                   href="/start"
-                  className="block font-medium text-sm text-white  hover:bg-gray-900 md:inline"
+                  className="block font-medium text-sm text-white bg-gray-800 hover:bg-gray-900 md:inline"
                 >
                   Generate Friday Blessings
-                </Link>
+                </NavLink>
               </li>
               <li>
-                <Link
+                <NavLink
                   href="/blog"
-                  className="block font-medium text-sm text-white hover:bg-gray-900 md:inline"
+                  className="block font-medium text-sm text-white bg-gray-800 hover:bg-gray-900 md:inline"
                 >
                   Blog
-                </Link>
+                </NavLink>
               </li>
             </ul>
           </div>
