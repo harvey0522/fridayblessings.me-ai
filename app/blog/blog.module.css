@@ -24,6 +24,10 @@
   justify-content: center;
 }
 
+.blog-image {
+  @apply w-full max-w-2xl mx-auto my-8 rounded-lg shadow-lg;
+}
+
 .card {
   background: white;
   padding: 20px;
