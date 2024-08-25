@@ -11,10 +11,10 @@ export default function Hero() {
       <div className="custom-screen pt-28 text-gray-600">
         <div className="space-y-5 max-w-4xl mx-auto text-center">
           <h1 className="text-4xl text-gray-800 font-extrabold mx-auto sm:text-6xl">
-            Generate your next AI FridayBlessing Image in seconds
+            Generate your Friday Blessings in seconds
           </h1>
           <p className="max-w-xl mx-auto">
-          FridayBlessing-AI makes it simple for you to generate cool looking AI images
+          Friday Blessings  makes it simple for you to generate cool looking AI images
             in seconds, completely for free.
           </p>
           <div className="flex items-center justify-center gap-x-3 font-medium text-sm">
@@ -22,7 +22,7 @@ export default function Hero() {
               href="/start"
               className="text-white bg-gray-800 hover:bg-gray-600 active:bg-gray-900 "
             >
-              Generate Friday Blessing Image
+              Generate Friday Blessings
             </NavLink>
             <NavLink
               target="_blank"

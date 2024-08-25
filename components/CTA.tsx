@@ -6,7 +6,7 @@ const CTA = () => (
           className="text-gray-800 text-3xl font-semibold sm:text-4xl"
           id="oss"
         >
-          FridayBlessings AI is Proudly Open Source
+          Friday Blessings is Proudly Open Source
         </h2>
         <p className="mt-3 text-gray-600">
           Our source code is available on GitHub.

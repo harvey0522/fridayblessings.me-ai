@@ -8,7 +8,7 @@ import PlausibleProvider from 'next-plausible';
 import Script from 'next/script';
 
 const inter = Inter({ subsets: ['latin'] });
-let title = 'Friday Blessings Image AI Generator';
+let title = 'Friday Blessings AI Generator';
 let description = 'Generate your AI Friday Blessings in seconds';
 let url = 'https://fridayblessings.me';
 let ogimage = '/ogimage.png';
@@ -62,6 +62,9 @@ export default function RootLayout({
         <PlausibleProvider domain="fridayblessings.me" />
       </head>
       <body className={inter.className}>
+        <div style={{ backgroundColor: 'purple', minHeight: '100vh' }}>
+          {children}
+        </div>
         <Navbar />
         <main>{children}</main>
         <Analytics />
