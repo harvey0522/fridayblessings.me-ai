@@ -102,7 +102,7 @@ const Navbar = () => {
               <li>
                 <NavLink
                   href="/start"
-                  className="block font-medium text-sm text-white md:inline"
+                  className="block font-medium text-sm text-white bg-gray-800 hover:bg-gray-600 md:inline"
                 >
                   Generate Friday Blessings
                 </NavLink>
@@ -110,7 +110,7 @@ const Navbar = () => {
               <li>
                 <NavLink
                   href="/blog"
-                  className="block font-medium text-sm text-white md:inline"
+                  className="block font-medium text-sm text-white bg-gray-800 hover:bg-gray-600 md:inline"
                 >
                   Blog
                 </NavLink>
