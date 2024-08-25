@@ -19,10 +19,10 @@ export default function Blog() {
             <p>"Blessed are those who see the beauty in humble places where others see nothing. May your Friday be filled with simple joys."</p>
           </blockquote>
           <blockquote>
-            <p>"On this beautiful Friday, may God’s blessings be upon you. May He give you strength and courage to face any challenge."</p>
+            <p>"On this beautiful Friday, may Gods blessings be upon you. May He give you strength and courage to face any challenge."</p>
           </blockquote>
           <blockquote>
-            <p>"Let this Friday be a reminder that God’s plan for you is greater than your fears and worries. Embrace the blessings of today."</p>
+            <p>"Let this Friday be a reminder that Gods plan for you is greater than your fears and worries. Embrace the blessings of today."</p>
           </blockquote>
           <blockquote>
             <p>"May your Friday sparkle with joy, laughter, and love. May your heart be light and your spirit be strong."</p>
@@ -34,7 +34,7 @@ export default function Blog() {
             <p>"May the Lord bless you with a Friday filled with favor, love, and happiness. Have a blessed day!"</p>
           </blockquote>
           <blockquote>
-            <p>"Let today’s Friday blessing remind you of how far you’ve come and how much more you can achieve. Keep shining!"</p>
+            <p>"Let todays Friday blessing remind you of how far youve come and how much more you can achieve. Keep shining!"</p>
           </blockquote>
           <blockquote>
             <p>"May this Friday bring you closer to your dreams, filled with moments of joy and peace. You are blessed."</p>
